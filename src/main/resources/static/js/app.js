@@ -75,13 +75,18 @@ var app=( function () {
                 "<td>" +
                 c.deaths+
                 "</td> "+
-                "<td action='info.html'><form ><button type='submit' onclick='app.countryInfo(\"" +
+                "<td ><form ><button type='submit' onclick='app.countryInfo(\"" +
                 c.country+ "\""+ ")'> select</button></form></td>" +
                 "</tr>"
             );
         });
+        $("button").click(function () {
+            $('html,body').animate({
+                    scrollTop: $(".secundaria").offset().top},
+                'slow');
+        })
 
-    }
+    };
 
 
 
