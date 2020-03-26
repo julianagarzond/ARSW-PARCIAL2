@@ -1,5 +1,11 @@
 # Escuela Colombiana de Ingeniería Julio Garavito - Arquitecturas de Software ARSW - Parcial Segundo Tercio
 
+##Despliegue
+
+[![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://covid19apparsw.herokuapp.com/)
+
+[![CircleCI](https://circleci.com/gh/julianagarzond/AREP-LAB4.svg?style=svg)](https://app.circleci.com/pipelines/github/julianagarzond/ARSW-PARCIAL2)
+
 ## Preparación para el Parcial
 
 Con el objetivo de preparar el examen final del segundo tercio, por favor siga las siguientes instrucciones.
