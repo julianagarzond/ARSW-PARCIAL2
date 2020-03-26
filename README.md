@@ -20,6 +20,13 @@
 ![image](https://user-images.githubusercontent.com/43153078/77706668-08650280-6f91-11ea-9d0f-8be3f654424d.png)
 
 ## Manejo Local
+- Por consola se debe ingresar el comando
+
+![image](https://user-images.githubusercontent.com/43153078/77706828-6f82b700-6f91-11ea-859b-00e90381f97c.png)
+-Por un editor de java se inicia la clase con el main o la clase principal llamada "CovidAplication"
+
+![image](https://user-images.githubusercontent.com/43153078/77707006-eb7cff00-6f91-11ea-98e0-61588ab0a164.png)
+
 ## Conexion API
 
 ![image](https://user-images.githubusercontent.com/43153078/77706523-9e4c5d80-6f90-11ea-8c9c-66b98a0ccca1.png)
