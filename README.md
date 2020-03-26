@@ -1,6 +1,6 @@
 # Escuela Colombiana de Ingeniería Julio Garavito - Arquitecturas de Software ARSW - Parcial Segundo Tercio
 
-##Despliegue
+## Despliegue
 
 [![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://covid19apparsw.herokuapp.com/)
 
