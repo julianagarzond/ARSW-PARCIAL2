@@ -6,6 +6,25 @@
 
 [![CircleCI](https://circleci.com/gh/julianagarzond/AREP-LAB4.svg?style=svg)](https://app.circleci.com/pipelines/github/julianagarzond/ARSW-PARCIAL2)
 
+## Consultas
+- localhost:8080/covid19
+- https://covid19apparsw.herokuapp.com/covid19
+![image](https://user-images.githubusercontent.com/43153078/77706598-d8b5fa80-6f90-11ea-9088-3fa1fd636c97.png)
+
+-localhost:8080/covid19/US
+- https://covid19apparsw.herokuapp.com/covid19/US
+![image](https://user-images.githubusercontent.com/43153078/77706627-ea979d80-6f90-11ea-8844-10987b2c6146.png)
+
+- localhist:8080/covid19/Colombia
+- https://covid19apparsw.herokuapp.com/covid19/Colombia
+![image](https://user-images.githubusercontent.com/43153078/77706668-08650280-6f91-11ea-9d0f-8be3f654424d.png)
+
+## Manejo Local
+## Conexion API
+
+![image](https://user-images.githubusercontent.com/43153078/77706523-9e4c5d80-6f90-11ea-8c9c-66b98a0ccca1.png)
+
+
 ## Preparación para el Parcial
 
 Con el objetivo de preparar el examen final del segundo tercio, por favor siga las siguientes instrucciones.
