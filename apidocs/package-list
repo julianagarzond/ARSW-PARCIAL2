@@ -1,0 +1,5 @@
+edu.eci.arsw.covidApplication
+edu.eci.arsw.covidApplication.controller
+edu.eci.arsw.covidApplication.model
+edu.eci.arsw.covidApplication.persistence
+edu.eci.arsw.covidApplication.service
