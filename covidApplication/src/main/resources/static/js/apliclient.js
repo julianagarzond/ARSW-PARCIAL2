@@ -9,6 +9,18 @@ apiclient = (function() {
                     callback(data)
                 }
             });
+        },
+
+        getCasesByCountry:function (countryName,callback) {
+            jQuery.get({
+                dataType:"json",
+                url: "/covid19/"+ countryName,
+                success:function (data) {
+                    callback(countryName,data)
+
+                }
+            })
+
         }
     }
 })();

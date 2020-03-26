@@ -43,4 +43,27 @@ public class CovidService {
         return info;
     }
 
-}
+    public String getCasesByCountry(String countryName) throws CovidException {
+        String info;
+        JSONArray countries = new JSONArray();
+        try{
+            info = cc.getCasesByCountry(countryName);
+            JSONObject newInfo = new JSONObject(info);
+            JSONObject data = new JSONObject(newInfo.get("data").toString());
+            JSONArray covid = new JSONArray(data.get("covid19Stats").toString());
+            for(int i = 0;i<covid.length();i++){
+                JSONObject myobject = (JSONObject) covid.get(i);
+                countries.put(myobject);
+
+
+            }
+            info= countries.toString();
+        } catch ( UnirestException e) {
+            throw new CovidException(e.getMessage());
+        }
+        return info;
+        }
+
+
+    }
+

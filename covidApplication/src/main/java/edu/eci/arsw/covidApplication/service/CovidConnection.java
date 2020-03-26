@@ -11,8 +11,21 @@ public class CovidConnection {
     public String getAllCases() throws UnirestException {
         HttpResponse<String> response = Unirest.get("https://covid-19-coronavirus-statistics.p.rapidapi.com/v1/stats")
                 .header("x-rapidapi-host", "covid-19-coronavirus-statistics.p.rapidapi.com")
-                .header("x-rapidapi-key", "0e72bcd144msh8951afd83016cbbp115df0jsnf8ca2e9da0ec")
+                .header("x-rapidapi-key", "da440f3495msh248209649ef16b1p17efcajsn78a0f7634941")
                 .asString();
         return response.getBody();
     }
+
+
+    public String getCasesByCountry(String countryName) throws UnirestException{
+
+        HttpResponse<String> response = Unirest.get("https://covid-19-coronavirus-statistics.p.rapidapi.com/v1/stats?country="+countryName)
+                .header("x-rapidapi-host", "covid-19-coronavirus-statistics.p.rapidapi.com")
+                .header("x-rapidapi-key", "da440f3495msh248209649ef16b1p17efcajsn78a0f7634941")
+                .asString();
+        return response.getBody();
+    }
+
+
 }
+
