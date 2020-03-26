@@ -1,5 +1,3 @@
-# ARSW-PARCIAL2
-
 # Escuela Colombiana de Ingeniería Julio Garavito - Arquitecturas de Software ARSW - Parcial Segundo Tercio
 
 ## Preparación para el Parcial
