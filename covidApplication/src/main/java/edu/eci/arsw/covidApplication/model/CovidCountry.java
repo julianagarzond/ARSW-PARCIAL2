@@ -17,14 +17,6 @@ public class CovidCountry {
         this.sick=confirmed;
     }
 
-    public CovidCountry(JSONObject json) {
-        this.json = json;
-        death = Integer.valueOf(json.get("deaths").toString());
-        cure = Integer.valueOf(json.get("recovered").toString());
-        sick = Integer.valueOf(json.get("confirmed").toString());
-
-    }
-
     public String getName() {
         return name;
     }
@@ -56,6 +48,20 @@ public class CovidCountry {
     public void setDeath(int death) {
         this.death = death;
     }
+
+
+
+
+
+    public CovidCountry(JSONObject json) {
+        this.json = json;
+        death = Integer.valueOf(json.get("deaths").toString());
+        cure = Integer.valueOf(json.get("recovered").toString());
+        sick = Integer.valueOf(json.get("confirmed").toString());
+
+    }
+
+
 
     public JSONObject getJson(){
         json.put("deaths",death);
