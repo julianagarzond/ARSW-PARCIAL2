@@ -49,6 +49,7 @@ var app=( function () {
     }
 
     var table2=function (name) {
+            alert(name);
             apiclient.getCasesByCountry(name,countryInfo);
     }
 
